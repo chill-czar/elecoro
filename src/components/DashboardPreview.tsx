@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import { MessageSquare, BarChart3, BadgeCheck } from "lucide-react";
 
 const DashboardPreview = () => {
@@ -26,10 +27,13 @@ const DashboardPreview = () => {
           {/* Browser Content */}
           <div className="relative aspect-16/10 bg-white md:aspect-auto">
             {/* Using the image provided by user */}
-            <img
+            <Image
               src="/image.png"
               alt="Elecoro Dashboard Interface"
+              width={1200}
+              height={750}
               className="h-auto w-full object-cover"
+              priority
             />
           </div>
         </div>

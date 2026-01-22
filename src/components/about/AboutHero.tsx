@@ -10,7 +10,7 @@ const AboutHero = () => {
             The Infrastructure for Global Electricity.
           </h1>
           <p className="max-w-3xl text-lg leading-relaxed text-gray-600 sm:text-xl">
-            Elecoro is the industry's first unified digital ecosystem,
+            Elecoro is the industry&apos;s first unified digital ecosystem,
             purpose-built to standardize the global electrical supply chain. We
             provide the institutional trust and digital architecture necessary
             to connect manufacturers, engineers, and contractors in a single,

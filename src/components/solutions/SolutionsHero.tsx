@@ -1,5 +1,4 @@
 import React from "react";
-import { CheckSquare, Code2 } from "lucide-react";
 
 const SolutionsHero = () => {
   return (

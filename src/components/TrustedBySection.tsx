@@ -1,5 +1,6 @@
-import React from 'react';
-import { Star } from 'lucide-react';
+import React from "react";
+import Image from "next/image";
+import { Star } from "lucide-react";
 
 const TrustedBySection = () => {
   const testimonials = [
@@ -40,8 +41,11 @@ const TrustedBySection = () => {
               
               {/* Stars */}
               <div className="flex gap-1 mb-6">
-                {[...Array(5)].map((_, i) => (
-                  <Star key={i} className="w-5 h-5 fill-[#84CC16] text-[#84CC16]" /> 
+                {Array.from({ length: 5 }).map((_, i) => (
+                  <Star
+                    key={i}
+                    className="w-5 h-5 fill-[#84CC16] text-[#84CC16]"
+                  />
                   // Visual match: Using lime/green shade from image for stars
                 ))}
               </div>
@@ -49,16 +53,19 @@ const TrustedBySection = () => {
               {/* Quote */}
               <blockquote className="flex-1 mb-8">
                 <p className="text-[#111111] text-lg italic leading-relaxed font-medium">
-                  "{testimonial.quote}"
+                  &ldquo;{testimonial.quote}&rdquo;
                 </p>
               </blockquote>
 
               {/* Author */}
               <div className="flex items-center gap-4">
-                <img 
-                  src={testimonial.image} 
-                  alt={testimonial.author} 
-                  className="w-12 h-12 rounded-full object-cover"
+                <Image
+                  src={testimonial.image}
+                  alt={testimonial.author}
+                  width={48}
+                  height={48}
+                  className="h-12 w-12 rounded-full object-cover"
+                  unoptimized
                 />
                 <div>
                   <h4 className="font-bold text-[#111111] text-base">

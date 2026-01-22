@@ -21,7 +21,7 @@ const Footer = () => {
               />
             </div>
             <p className="max-w-sm text-sm leading-relaxed text-gray-500">
-              The world's most comprehensive ecosystem for the electrical
+              The world&apos;s most comprehensive ecosystem for the electrical
               industry, from supply to install.
             </p>
           </div>

@@ -104,7 +104,7 @@ const FAQSection = () => {
             Still Need Help?
           </h2>
           <p className="mb-8 text-gray-500">
-            If you couldn't find the answer you were looking for, our dedicated
+            If you couldn&apos;t find the answer you were looking for, our dedicated
             support team is available 24/7 to assist you.
           </p>
           <button className="text-dark-indigo rounded-md bg-[#D0F450] px-6 py-3 text-sm font-bold shadow-sm transition-transform hover:scale-105 active:scale-95">

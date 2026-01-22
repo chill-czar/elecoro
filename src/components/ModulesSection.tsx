@@ -1,5 +1,5 @@
 import React from "react";
-import { ArrowRight, Box, ShieldCheck, TrendingUp } from "lucide-react";
+import { ShieldCheck, TrendingUp } from "lucide-react";
 
 const ModulesSection = () => {
   return (
