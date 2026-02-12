@@ -11,7 +11,7 @@ import Footer from "../components/Footer";
 
 export default function HomePage() {
   return (
-    <main className="min-h-screen bg-white">
+    <main className="bg-light-gray min-h-screen">
       <Header />
       <Hero />
       <StatsSection />

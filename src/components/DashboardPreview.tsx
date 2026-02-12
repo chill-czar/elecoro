@@ -4,7 +4,7 @@ import { MessageSquare, BarChart3, BadgeCheck } from "lucide-react";
 
 const DashboardPreview = () => {
   return (
-    <section className="w-full overflow-hidden bg-gray-50 px-4 py-24 sm:px-6 lg:px-8">
+    <section className="bg-light-gray w-full overflow-hidden px-4 py-24 sm:px-6 lg:px-8">
       <div className="relative mx-auto max-w-7xl">
         {/* Browser Window Mockup */}
         <div className="relative z-10 mx-auto max-w-5xl overflow-hidden rounded-xl border border-gray-200 bg-white shadow-2xl">

@@ -26,7 +26,7 @@ const Header = () => {
   }, [pathname]);
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-gray-100 bg-white/95 font-sans backdrop-blur-sm">
+    <header className="bg-light-gray/95 sticky top-0 z-50 w-full border-b border-gray-100 font-sans backdrop-blur-sm">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-20 items-center justify-between">
           {/* Logo Section */}

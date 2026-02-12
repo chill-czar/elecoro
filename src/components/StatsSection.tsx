@@ -9,7 +9,7 @@ const StatsSection = () => {
   ];
 
   return (
-    <section className="w-full border-y border-gray-100 bg-white py-16">
+    <section className="bg-light-gray w-full border-y border-gray-100 py-16">
       <div className="mx-auto max-w-7xl">
         <div className="grid grid-cols-2 gap-8 divide-x divide-gray-100 text-center md:grid-cols-4">
           {stats.map((stat) => (

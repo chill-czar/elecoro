@@ -1,9 +1,13 @@
+"use client";
 import React from "react";
-import Image from "next/image";
+import dynamic from "next/dynamic";
+import windmillAnimation from "../assets/lottie/windmill.json";
+
+const Lottie = dynamic(() => import("lottie-react"), { ssr: false });
 
 const CTASection = () => {
   return (
-    <section className="w-full bg-white px-4 py-8 sm:px-6 lg:px-8">
+    <section className="bg-light-gray w-full px-4 py-8 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-7xl">
         <div className="bg-dark-indigo relative overflow-hidden rounded-2xl p-6 sm:p-10 lg:p-16">
           <div className="grid grid-cols-1 items-center gap-10 lg:grid-cols-2 lg:gap-16">
@@ -36,17 +40,14 @@ const CTASection = () => {
 
             {/* Right Content */}
             <div className="relative order-first flex items-center justify-center lg:order-last">
-              <div className="relative w-full max-w-[200px] sm:max-w-[280px] lg:max-w-xs">
+              <div className="relative w-full max-w-[200px] sm:max-w-[280px] lg:max-w-[400px]">
                 {/* Optional glow effect */}
-                <div className="bg-neon-green/20 absolute top-1/2 left-1/2 h-32 w-32 -translate-x-1/2 -translate-y-1/2 rounded-full blur-3xl filter sm:h-48 sm:w-48"></div>
+                <div className="bg-neon-green/20 absolute top-1/2 left-1/2 h-50 w-50 -translate-x-1/2 -translate-y-1/2 rounded-full blur-3xl filter sm:h-60 sm:w-60"></div>
 
-                <Image
-                  src="/Contact us.gif"
-                  alt="Newsletter"
-                  width={400}
-                  height={400}
+                <Lottie
+                  animationData={windmillAnimation}
+                  loop={true}
                   className="relative z-10 w-full drop-shadow-2xl"
-                  unoptimized
                 />
               </div>
             </div>

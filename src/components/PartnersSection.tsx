@@ -12,7 +12,7 @@ const PartnersSection = () => {
   ];
 
   return (
-    <section className="w-full border-b border-gray-100 bg-white px-4 py-16 sm:px-6 lg:px-8">
+    <section className="bg-light-gray w-full border-b border-gray-100 px-4 py-16 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-7xl text-center">
         <p className="mb-8 text-sm font-bold tracking-wider text-gray-400 uppercase">
           Powering the world&apos;s leading infrastructure projects

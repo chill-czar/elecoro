@@ -3,7 +3,7 @@ import { ShieldCheck, TrendingUp } from "lucide-react";
 
 const ModulesSection = () => {
   return (
-    <section className="w-full bg-white px-4 py-24 sm:px-6 lg:px-8">
+    <section className="bg-light-gray w-full px-4 py-24 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-7xl">
         {/* Header Section */}
         <div className="mb-16 flex flex-col justify-between gap-8 lg:flex-row lg:items-end">
